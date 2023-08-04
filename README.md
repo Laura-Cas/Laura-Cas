@@ -1,16 +1,23 @@
 ### Hi, I´m Laura 👋👩‍💻
 
-<!--
-**Laura-Cas/Laura-Cas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+public class Persona {
+    private String carrera;
+    private String proyectos;
 
-Here are some ideas to get you started:
+    public Persona(String carrera, String proyectos) {
+        this.carrera = carrera;
+        this.proyectos = proyectos;
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public void presentarse() {
+        System.out.println("¡Hola a todos!");
+        System.out.println("Soy estudiante de Ingeniería en Sistemas.");
+        System.out.println("Estoy emocionada por los futuros proyectos de programación.");
+        System.out.println("¡Feliz de presentarme con ustedes!");
+    }
+
+    public static void main(String[] args) {
+        Persona persona = new Persona("Ingeniería en Sistemas", "Desarrollo de una aplicación web");
+        persona.presentarse();
+    }
+}
