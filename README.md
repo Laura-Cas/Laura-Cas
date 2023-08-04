@@ -1,4 +1,4 @@
-### Hi, I´m Laura 👋
+### Hi, I´m Laura 👋👩‍💻
 
 <!--
 **Laura-Cas/Laura-Cas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
